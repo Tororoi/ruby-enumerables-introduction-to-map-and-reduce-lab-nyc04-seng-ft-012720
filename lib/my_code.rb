@@ -7,3 +7,13 @@ def map_to_negativize(array)
   end
   negativized_array
 end
+
+def map_to_no_change(array)
+  unchanged_array = []
+  i = 0
+  while i < array.length do
+    unchanged_array << array[i]
+    i+=1
+  end
+  unchanged_array
+end
