@@ -17,3 +17,13 @@ def map_to_no_change(array)
   end
   unchanged_array
 end
+
+def map_to_double(array)
+  doubled_array = []
+  i = 0
+  while i < array.length do
+    doubled_array << array[i]*2
+    i+=1
+  end
+  doubled_array
+end
