@@ -51,7 +51,9 @@ end
 def reduce_to_all_true(array)
   i = 0
   while i < array.length do
-    !!array[i] = true ? i += 1 : return false
+    if !!array[i] = true {i += 1}
+    else return false
+    end
   end
   true
 end
