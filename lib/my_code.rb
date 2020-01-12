@@ -27,3 +27,14 @@ def map_to_double(array)
   end
   doubled_array
 end
+
+def map_to_square(array)
+  squared_array = []
+  i = 0
+  while i < array.length do
+    squared_array << array[i]**2
+    i+=1
+  end
+  squared_array
+end
+
